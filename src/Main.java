@@ -33,6 +33,10 @@ public class Main {
         System.out.println(book3Copy.equals(book3));
         System.out.println(book2.equals(book1));
 
+        Author author4 = new Author("Алексей", "Пушкин");
+        Book book4 = new Book("\"Евгений Онегин\"", author4, 1833);
+        System.out.println(author4.equals(author3));
+        System.out.println(book4.equals(book3));
 
     }
 }
